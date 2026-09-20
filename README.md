@@ -32,7 +32,7 @@
 
 - 指定した時間をカウントダウンする
 - タイマーを開始・一時停止・停止する
-- 計測履歴を最大5件まで保存する
+- タイマー履歴を最大5件まで保存する
 
 ### アラーム
 
@@ -49,8 +49,8 @@ timer-ts/
 │   ├── 仕様/
 │   │   └── 要求仕様書-タイマーアプリ.md
 │   └── 設計/
-│       ├── タイマー状態遷移図.puml
-│       └── タイマー状態遷移表.md
+│       ├── alarm-state-transition.md
+│       └── timer-state-transition.md
 ├── src/
 │   ├── main.ts
 │   └── style.css
@@ -102,7 +102,8 @@ npm run dev
 
 - [要求仕様書](https://github.com/arisa-portfolio/timer-ts/blob/main/docs/%E4%BB%95%E6%A7%98/%E8%A6%81%E6%B1%82%E4%BB%95%E6%A7%98%E6%9B%B8-%E3%82%BF%E3%82%A4%E3%83%9E%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA.md)
 - [画面仕様書](https://www.figma.com/design/Yb9HE5ARwSbxN1ySfTWqwQ/%E7%94%BB%E9%9D%A2%E4%BB%95%E6%A7%98%E6%9B%B8?node-id=0-1&t=UnDDnRNOJadcejSD-1)
-- [状態遷移図・状態遷移表]
+- [タイマー状態遷移図](https://github.com/arisa-portfolio/timer-ts/blob/main/docs/%E8%A8%AD%E8%A8%88/timer-state-transition.md)
+- [アラーム状態遷移図](https://github.com/arisa-portfolio/timer-ts/blob/main/docs/%E8%A8%AD%E8%A8%88/alarm-state-transition.md)
 - [シーケンス図]
 - [クラス図]
 
