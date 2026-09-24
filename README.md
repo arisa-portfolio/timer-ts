@@ -49,8 +49,20 @@ timer-ts/
 │   ├── 仕様/
 │   │   └── 要求仕様書-タイマーアプリ.md
 │   └── 設計/
-│       ├── alarm-state-transition.md
-│       └── timer-state-transition.md
+|       ├── クラス図/
+|       ├── シーケンス図/
+|       |    ├── alarm-sequence-delete.md
+|       |    ├── alarm-sequence-setting.md
+|       |    ├── alarm-sequence-snooze.md
+|       |    ├── alarm-sequence-stop.md
+|       |    ├── timer-sequence-cancel.md
+|       |    ├── timer-sequence-pause.md
+|       |    ├── timer-sequence-start.md
+|       |    └── timer-sequence-timeup.md
+|       | 
+|       └── 状態遷移図/
+│       　　　├── alarm-state-transition.md
+│       　　　└── timer-state-transition.md
 ├── src/
 │   ├── main.ts
 │   └── style.css
@@ -102,9 +114,8 @@ npm run dev
 
 - [要求仕様書](https://github.com/arisa-portfolio/timer-ts/blob/main/docs/%E4%BB%95%E6%A7%98/%E8%A6%81%E6%B1%82%E4%BB%95%E6%A7%98%E6%9B%B8-%E3%82%BF%E3%82%A4%E3%83%9E%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA.md)
 - [画面仕様書](https://www.figma.com/design/Yb9HE5ARwSbxN1ySfTWqwQ/%E7%94%BB%E9%9D%A2%E4%BB%95%E6%A7%98%E6%9B%B8?node-id=0-1&t=UnDDnRNOJadcejSD-1)
-- [タイマー状態遷移図](https://github.com/arisa-portfolio/timer-ts/blob/main/docs/%E8%A8%AD%E8%A8%88/timer-state-transition.md)
-- [アラーム状態遷移図](https://github.com/arisa-portfolio/timer-ts/blob/main/docs/%E8%A8%AD%E8%A8%88/alarm-state-transition.md)
-- [シーケンス図]
+- [状態遷移図](https://github.com/arisa-portfolio/timer-ts/tree/main/docs/%E8%A8%AD%E8%A8%88/%E7%8A%B6%E6%85%8B%E9%81%B7%E7%A7%BB%E5%9B%B3)
+- [シーケンス図](https://github.com/arisa-portfolio/timer-ts/tree/main/docs/%E8%A8%AD%E8%A8%88/%E3%82%B7%E3%83%BC%E3%82%B1%E3%83%B3%E3%82%B9%E5%9B%B3)
 - [クラス図]
 
 ## 工夫した点
