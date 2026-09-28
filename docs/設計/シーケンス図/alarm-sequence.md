@@ -4,7 +4,7 @@
 
 ```mermaid
 sequenceDiagram
-    participant User as ユーザー
+    actor User as ユーザー
     participant UI as 画面
     participant Alarm as アラーム
 
@@ -23,7 +23,7 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    participant User as ユーザー
+    actor User as ユーザー
     participant UI as 画面
     participant Alarm as アラーム
 
@@ -44,7 +44,7 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    participant User as ユーザー
+    actor User as ユーザー
     participant UI as 画面
     participant Alarm as アラーム
 
@@ -73,7 +73,7 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    participant User as ユーザー
+    actor User as ユーザー
     participant UI as 画面
     participant Alarm as アラーム
 
