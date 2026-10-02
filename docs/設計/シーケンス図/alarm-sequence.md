@@ -1,6 +1,6 @@
 # アラームシーケンス図
 
-## ① アラームを設定して登録する
+## 1. アラームを設定して登録する
 
 ```mermaid
 sequenceDiagram
@@ -19,7 +19,7 @@ sequenceDiagram
     UI->>User: 登録済みアラームを表示
 ```
 
-## ② アラームが鳴って停止する
+## 2. アラームが鳴って停止する
 
 ```mermaid
 sequenceDiagram
@@ -40,7 +40,7 @@ sequenceDiagram
     UI->>User: 初期画面を表示
 ```
 
-## ③ アラームをスヌーズする
+## 3. アラームをスヌーズする
 
 ```mermaid
 sequenceDiagram
@@ -69,7 +69,7 @@ sequenceDiagram
     end
 ```
 
-## ④ アラームを削除する
+## 4. アラームを削除する
 
 ```mermaid
 sequenceDiagram
